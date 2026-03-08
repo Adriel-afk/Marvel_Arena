@@ -18,7 +18,7 @@ h1{
 
 
 .atras-boton button{
-    width: 100px;
+    width: 250px;
     background-color: #111;
     color:#ED1D24;
     padding: 20px;
@@ -745,8 +745,8 @@ transform: scale(1.05);
 box-shadow: 0 0 20px #ED1D24;
 }
 
-.atras-boton-arena{
-    width: 100px;
+.atras-boton-arena button{
+    width: 250px;
     background-color: #111;
     color:#ED1D24;
     padding: 20px;
@@ -762,3 +762,1194 @@ box-shadow: 0 0 20px #ED1D24;
     
 }
 
+/*SECCION PARA LA ELEECION 1*/
+
+.atras-boton-eleccion1 button{
+    width: 250px;
+    background-color: #111;
+    color:#ED1D24;
+    padding: 20px;
+    border: 2px solid #ED1D24;
+    border-radius: 12px;
+    text-shadow: 
+    0 0 5px #ED1D24,
+    0 0 10px,
+    0 0 20px;
+    cursor: pointer;
+
+}
+
+.spider-man-eleccion1{
+    width: 300px;
+    background-color: #111;
+    color:white;
+    border: 2px solid #ED1D24;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 130px;
+    transition: 0.5s;
+}
+
+.spider-man-eleccion1 h2{
+    text-align: center;
+}
+
+.spider-man-eleccion1 img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.spider-man-eleccion1:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #ED1D24;
+}
+
+.ironman-eleccion1{
+    width: 300px;
+    background-color: #111;
+    color:white;
+    border: 2px solid #ED1D24;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    margin-left: 625px;
+    margin-top: -320px;
+    transition: 0.5s;
+}
+
+.ironman-eleccion1 h2{
+    text-align: center;
+}
+
+.ironman-eleccion1 img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.ironman-eleccion1:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #ED1D24;
+}
+
+.hulk-eleccion1{
+    width: 300px;
+    background-color: #111;
+    color:white;
+    border: 2px solid #ED1D24;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+   margin-top:-325px;
+    margin-left: 1100px;
+    transition: 0.5s;
+}
+
+.hulk-eleccion1 h2{
+    text-align: center;
+}
+
+.hulk-eleccion1 img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.hulk-eleccion1:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #ED1D24;
+}
+
+.deadpool-eleccion1{
+    width: 300px;
+    background-color: #111;
+    color:white;
+    border: 2px solid #ED1D24;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 130px;
+    transition: 0.5s;
+}
+
+.deadpool-eleccion1 h2{
+    text-align: center;
+}
+
+.deadpool-eleccion1 img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.deadpool-eleccion1:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #ED1D24;
+}
+
+.CapitanAmerica-eleccion1{
+    width: 300px;
+    background-color: #111;
+    color:white;
+    border: 2px solid #ED1D24;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+     margin-top: -320px;
+    margin-left:620px;
+    transition: 0.5s;
+}
+
+.CapitanAmerica-eleccion1 h2{
+    text-align: center;
+}
+
+.CapitanAmerica-eleccion1 img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.CapitanAmerica-eleccion1:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #ED1D24;
+}
+
+.thor-eleccion1{
+    width: 300px;
+    background-color: #111;
+    color:white;
+    border: 2px solid #ED1D24;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    margin-left: 1100px;
+    margin-top:-320px;
+    transition: 0.5s;
+}
+
+.thor-eleccion1 h2{
+    text-align: center;
+}
+
+.thor-eleccion1 img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.thor-eleccion1:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #ED1D24;
+}
+
+.Daredevil-eleccion1{
+    width: 300px;
+    background-color: #111;
+    color:white;
+    border: 2px solid #ED1D24;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 130px;
+    transition: 0.5s;
+}
+
+.Daredevil-eleccion1 h2{
+    text-align: center;
+}
+
+.Daredevil-eleccion1 img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.Daredevil-eleccion1:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #ED1D24;
+}
+
+
+.punisher-eleccion1{
+    width: 300px;
+    background-color: #111;
+    color:white;
+    border: 2px solid #ED1D24;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    margin-top: -325px;
+    margin-left:620px;
+    transition: 0.5s;
+}
+
+.punisher-eleccion1 h2{
+    text-align: center;
+}
+
+.punisher-eleccion1 img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.punisher-eleccion1:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #ED1D24;
+}
+
+
+.pantera-eleccion1{
+    width: 325px;
+    background-color: #111;
+    color:white;
+    border: 2px solid #ED1D24;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    margin-left: 1100px;
+    margin-top:-300px;
+    transition: 0.5s;
+}
+
+.pantera-eleccion1 h2{
+    text-align: center;
+}
+
+.pantera-eleccion1 img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.pantera-eleccion1:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #ED1D24;
+}
+
+
+.ant-man-eleccion1{
+    width: 300px;
+    background-color: #111;
+    color:white;
+    border: 2px solid #ED1D24;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 130px;
+    transition: 0.5s;
+}
+
+.ant-man-eleccion1 h2{
+    text-align: center;
+}
+
+.ant-man-eleccion1 img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.ant-man-eleccion1:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #ED1D24;
+}
+
+
+
+.reed-eleccion1{
+    width: 300px;
+    background-color: #111;
+    color:white;
+    border: 2px solid #ED1D24;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+     margin-top: -320px;
+    margin-left:620px;
+    transition: 0.5s;
+}
+
+.reed-eleccion1 h2{
+    text-align: center;
+}
+
+.reed-eleccion1 img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.reed-eleccion1:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #ED1D24;
+}
+
+
+
+.strange-eleccion1{
+    width: 300px;
+    background-color: #111;
+    color:white;
+    border: 2px solid #ED1D24;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    margin-top: -310px;
+    margin-left: 1100px;
+    transition: 0.5s;
+}
+
+.strange-eleccion1 h2{
+    text-align: center;
+}
+
+.strange-eleccion1 img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.strange-eleccion1:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #ED1D24;
+}
+
+
+
+.vision-eleccion1{
+    width: 300px;
+    background-color: #111;
+    color:white;
+    border: 2px solid #ED1D24;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 130px;
+    transition: 0.5s;
+}
+
+.vision-eleccion1 h2{
+    text-align: center;
+}
+
+.vision-eleccion1 img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.vision-eleccion1:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #ED1D24;
+}
+
+
+
+.wanda-eleccion1{
+    width: 300px;
+    background-color: #111;
+    color:white;
+    border: 2px solid #ED1D24;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    margin-top: -320px;
+    margin-left: 620px;
+    transition: 0.5s;
+}
+
+.wanda-eleccion1 h2{
+    text-align: center;
+}
+
+.wanda-eleccion1 img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.wanda-eleccion1:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #ED1D24;
+}
+
+
+
+.venom-eleccion1{
+    width: 300px;
+    background-color: #111;
+    color:white;
+    border: 2px solid #ED1D24;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    margin-top: -320px;
+    margin-left: 1100px;
+    transition: 0.5s;
+}
+
+.venom-eleccion1 h2{
+    text-align: center;
+}
+
+.venom-eleccion1 img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.venom-eleccion1:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #ED1D24;
+}
+
+
+
+.ciclope-eleccion1{
+    width: 300px;
+    background-color: #111;
+    color:white;
+    border: 2px solid #ED1D24;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 130px;
+    transition: 0.5s;
+}
+
+.ciclope-eleccion1 h2{
+    text-align: center;
+}
+
+.ciclope-eleccion1 img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.ciclope-eleccion1:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #ED1D24;
+}
+
+
+
+.cap-marvel-eleccion1{
+    width: 300px;
+    background-color: #111;
+    color:white;
+    border: 2px solid #ED1D24;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    margin-top: -330px;
+    margin-left: 625px;
+    transition: 0.5s;
+}
+
+.cap-marvel-eleccion1 h2{
+    text-align: center;
+}
+
+.cap-marvel-eleccion1 img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.cap-marvel-eleccion1:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #ED1D24;
+}
+
+
+
+.fantasma-eleccion1{
+    width: 300px;
+    background-color: #111;
+    color:white;
+    border: 2px solid #ED1D24;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    margin-top: -325px;
+    margin-left: 1100px;
+    transition: 0.5s;
+}
+
+.fantasma-eleccion1 h2{
+    text-align: center;
+}
+
+.fantasma-eleccion1 img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.fantasma-eleccion1:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #ED1D24;
+}
+
+
+
+.silver-surfer-eleccion1{
+    width: 300px;
+    background-color: #111;
+    color:white;
+    border: 2px solid #ED1D24;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    margin-top: 130px;
+    margin-left: 130px;
+    transition: 0.5s;
+}
+
+.silver-surfer-eleccion1 h2{
+    text-align: center;
+}
+
+.silver-surfer-eleccion1 img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.silver-surfer-eleccion1:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #ED1D24;
+}
+
+
+
+.beyonder-eleccion1{
+    width: 300px;
+    background-color: #111;
+    color:white;
+    border: 2px solid #ED1D24;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    margin-top: -350px;
+    margin-left: 630px;
+    transition: 0.5s;
+}
+
+.beyonder-eleccion1 h2{
+    text-align: center;
+}
+
+.beyonder-eleccion1 img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.beyonder-eleccion1:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #ED1D24;
+}
+
+
+
+.logan-eleccion1{
+    width: 300px;
+    background-color: #111;
+    color:white;
+    border: 2px solid #ED1D24;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    margin-top:-350px;
+    margin-left: 1100px;
+    transition: 0.5s;
+}
+
+.logan-eleccion1 h2{
+    text-align: center;
+}
+
+.logan-eleccion1 img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.logan-eleccion1:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #ED1D24;
+}
+
+/*SECCION DE ELECCION 2 */
+
+.atras-boton-eleccion2 button{
+    width: 250px;
+    background-color: #111;
+    color:#ED1D24;
+    padding: 20px;
+    border: 2px solid #ED1D24;
+    border-radius: 12px;
+    text-shadow: 
+    0 0 5px #ED1D24,
+    0 0 10px,
+    0 0 20px;
+    cursor: pointer;
+}
+
+.spider-man-eleccion2{
+    width: 300px;
+    background-color: #111;
+    color:white;
+    border: 2px solid #ED1D24;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 130px;
+    transition: 0.5s;
+}
+
+.spider-man-eleccion2 h2{
+    text-align: center;
+}
+
+.spider-man-eleccion2 img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.spider-man-eleccion2:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #ED1D24;
+}
+
+.ironman-eleccion2{
+    width: 300px;
+    background-color: #111;
+    color:white;
+    border: 2px solid #ED1D24;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    margin-left: 625px;
+    margin-top: -320px;
+    transition: 0.5s;
+}
+
+.ironman-eleccion2 h2{
+    text-align: center;
+}
+
+.ironman-eleccion2 img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.ironman-eleccion2:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #ED1D24;
+}
+
+.hulk-eleccion2{
+    width: 300px;
+    background-color: #111;
+    color:white;
+    border: 2px solid #ED1D24;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+   margin-top:-325px;
+    margin-left: 1100px;
+    transition: 0.5s;
+}
+
+.hulk-eleccion2 h2{
+    text-align: center;
+}
+
+.hulk-eleccion2 img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.hulk-eleccion2:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #ED1D24;
+}
+
+.deadpool-eleccion2{
+    width: 300px;
+    background-color: #111;
+    color:white;
+    border: 2px solid #ED1D24;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 130px;
+    transition: 0.5s;
+}
+
+.deadpool-eleccion2 h2{
+    text-align: center;
+}
+
+.deadpool-eleccion2 img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.deadpool-eleccion2:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #ED1D24;
+}
+
+.CapitanAmerica-eleccion2{
+    width: 300px;
+    background-color: #111;
+    color:white;
+    border: 2px solid #ED1D24;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+     margin-top: -320px;
+    margin-left:620px;
+    transition: 0.5s;
+}
+
+.CapitanAmerica-eleccion2 h2{
+    text-align: center;
+}
+
+.CapitanAmerica-eleccion2 img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.CapitanAmerica-eleccion2:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #ED1D24;
+}
+
+.thor-eleccion2{
+    width: 300px;
+    background-color: #111;
+    color:white;
+    border: 2px solid #ED1D24;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    margin-left: 1100px;
+    margin-top:-320px;
+    transition: 0.5s;
+}
+
+.thor-eleccion2 h2{
+    text-align: center;
+}
+
+.thor-eleccion2 img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.thor-eleccion2:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #ED1D24;
+}
+
+.Daredevil-eleccion2{
+    width: 300px;
+    background-color: #111;
+    color:white;
+    border: 2px solid #ED1D24;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 130px;
+    transition: 0.5s;
+}
+
+.Daredevil-eleccion2 h2{
+    text-align: center;
+}
+
+.Daredevil-eleccion2 img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.Daredevil-eleccion2:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #ED1D24;
+}
+
+.punisher-eleccion2{
+    width: 300px;
+    background-color: #111;
+    color:white;
+    border: 2px solid #ED1D24;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    margin-top: -325px;
+    margin-left:620px;
+    transition: 0.5s;
+}
+
+.punisher-eleccion2 h2{
+    text-align: center;
+}
+
+.punisher-eleccion2 img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.punisher-eleccion2:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #ED1D24;
+}
+
+.pantera-eleccion2{
+    width: 325px;
+    background-color: #111;
+    color:white;
+    border: 2px solid #ED1D24;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    margin-left: 1100px;
+    margin-top:-300px;
+    transition: 0.5s;
+}
+
+.pantera-eleccion2 h2{
+    text-align: center;
+}
+
+.pantera-eleccion2 img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.pantera-eleccion2:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #ED1D24;
+}
+
+.ant-man-eleccion2{
+    width: 300px;
+    background-color: #111;
+    color:white;
+    border: 2px solid #ED1D24;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 130px;
+    transition: 0.5s;
+}
+
+.ant-man-eleccion2 h2{
+    text-align: center;
+}
+
+.ant-man-eleccion2 img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.ant-man-eleccion2:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #ED1D24;
+}
+
+.reed-eleccion2{
+    width: 300px;
+    background-color: #111;
+    color:white;
+    border: 2px solid #ED1D24;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+     margin-top: -320px;
+    margin-left:620px;
+    transition: 0.5s;
+}
+
+.reed-eleccion2 h2{
+    text-align: center;
+}
+
+.reed-eleccion2 img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.reed-eleccion2:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #ED1D24;
+}
+
+.strange-eleccion2{
+    width: 300px;
+    background-color: #111;
+    color:white;
+    border: 2px solid #ED1D24;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    margin-top: -310px;
+    margin-left: 1100px;
+    transition: 0.5s;
+}
+
+.strange-eleccion2 h2{
+    text-align: center;
+}
+
+.strange-eleccion2 img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.strange-eleccion2:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #ED1D24;
+}
+
+.vision-eleccion2{
+    width: 300px;
+    background-color: #111;
+    color:white;
+    border: 2px solid #ED1D24;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 130px;
+    transition: 0.5s;
+}
+
+.vision-eleccion2 h2{
+    text-align: center;
+}
+
+.vision-eleccion2 img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.vision-eleccion2:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #ED1D24;
+}
+
+.wanda-eleccion2{
+    width: 300px;
+    background-color: #111;
+    color:white;
+    border: 2px solid #ED1D24;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    margin-top: -320px;
+    margin-left: 620px;
+    transition: 0.5s;
+}
+
+.wanda-eleccion2 h2{
+    text-align: center;
+}
+
+.wanda-eleccion2 img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.wanda-eleccion2:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #ED1D24;
+}
+
+.venom-eleccion2{
+    width: 300px;
+    background-color: #111;
+    color:white;
+    border: 2px solid #ED1D24;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    margin-top: -320px;
+    margin-left: 1100px;
+    transition: 0.5s;
+}
+
+.venom-eleccion2 h2{
+    text-align: center;
+}
+
+.venom-eleccion2 img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.venom-eleccion2:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #ED1D24;
+}
+
+.ciclope-eleccion2{
+    width: 300px;
+    background-color: #111;
+    color:white;
+    border: 2px solid #ED1D24;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 130px;
+    transition: 0.5s;
+}
+
+.ciclope-eleccion2 h2{
+    text-align: center;
+}
+
+.ciclope-eleccion2 img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.ciclope-eleccion2:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #ED1D24;
+}
+
+.cap-marvel-eleccion2{
+    width: 300px;
+    background-color: #111;
+    color:white;
+    border: 2px solid #ED1D24;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    margin-top: -330px;
+    margin-left: 625px;
+    transition: 0.5s;
+}
+
+.cap-marvel-eleccion2 h2{
+    text-align: center;
+}
+
+.cap-marvel-eleccion2 img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.cap-marvel-eleccion2:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #ED1D24;
+}
+
+.fantasma-eleccion2{
+    width: 300px;
+    background-color: #111;
+    color:white;
+    border: 2px solid #ED1D24;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    margin-top: -325px;
+    margin-left: 1100px;
+    transition: 0.5s;
+}
+
+.fantasma-eleccion2 h2{
+    text-align: center;
+}
+
+.fantasma-eleccion2 img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.fantasma-eleccion2:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #ED1D24;
+}
+
+.silver-surfer-eleccion2{
+    width: 300px;
+    background-color: #111;
+    color:white;
+    border: 2px solid #ED1D24;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    margin-top: 130px;
+    margin-left: 130px;
+    transition: 0.5s;
+}
+
+.silver-surfer-eleccion2 h2{
+    text-align: center;
+}
+
+.silver-surfer-eleccion2 img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.silver-surfer-eleccion2:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #ED1D24;
+}
+
+.beyonder-eleccion2{
+    width: 300px;
+    background-color: #111;
+    color:white;
+    border: 2px solid #ED1D24;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    margin-top: -350px;
+    margin-left: 630px;
+    transition: 0.5s;
+}
+
+.beyonder-eleccion2 h2{
+    text-align: center;
+}
+
+.beyonder-eleccion2 img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.beyonder-eleccion2:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #ED1D24;
+}
+
+.logan-eleccion2{
+    width: 300px;
+    background-color: #111;
+    color:white;
+    border: 2px solid #ED1D24;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    margin-top:-350px;
+    margin-left: 1100px;
+    transition: 0.5s;
+}
+
+.logan-eleccion2 h2{
+    text-align: center;
+}
+
+.logan-eleccion2 img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.logan-eleccion2:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #ED1D24;
+}
