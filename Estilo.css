@@ -17,6 +17,27 @@ h1{
 
 
 
+.atras-boton button{
+    width: 100px;
+    background-color: #111;
+    color:#ED1D24;
+    padding: 20px;
+    border: 2px solid #ED1D24;
+    border-radius: 12px;
+    text-shadow: 
+    0 0 5px #ED1D24,
+    0 0 10px,
+    0 0 20px;
+
+    cursor: pointer;
+    
+}
+
+
+
+
+
+
 .card{
     width: 300px;
     background-color: #111;
@@ -139,7 +160,8 @@ button{
     text-align: left;
     padding: 20px;
     margin-left: 625px;
-    margin-top: -390px;;
+    margin-top: -390px;
+    transition: 0.5s;
 }
 
 .ironman h2{
@@ -148,6 +170,11 @@ button{
 .ironman img{
     width: 100%;
     border-radius: 10px;
+}
+
+.ironman:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #ED1D24;
 }
 
 .hulk{
@@ -160,6 +187,7 @@ button{
     padding: 20px;
     margin-top:-390px;
     margin-left: 1100px;
+    transition: 0.5s;
 }
 
 .hulk h2{
@@ -168,6 +196,11 @@ button{
 .hulk img{
     width: 100%;
     border-radius: 10px;
+}
+
+.hulk:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #ED1D24;
 }
 
 .deadpool{
@@ -180,6 +213,7 @@ button{
     padding: 20px;
     margin-top: 75px;
     margin-left: 130px;
+    transition: 0.5s;
 
 }
 
@@ -190,4 +224,464 @@ button{
 .deadpool img{
     width: 100%;
     border-radius: 10px;
+}
+
+.deadpool:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #ED1D24;
+}
+
+.CapitanAmerica{
+    width: 300px;
+    background-color: #111;
+    color:white;
+    border: 2px solid #ED1D24;
+    border-radius: 12px;
+    text-align: left;
+    padding: 20px;
+    margin-top: -395px;
+    margin-left:620px;
+    transition: 0.5s;
+}
+
+.CapitanAmerica h2{
+    text-align: center;
+}
+
+.CapitanAmerica img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.CapitanAmerica:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #ED1D24;
+}
+
+.thor{
+    width: 300px;
+    background-color: #111;
+    color:white;
+    border: 2px solid #ED1D24;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: left;
+    margin-left: 1100px;
+    margin-top:-410px;
+    transition: 0.5s;
+
+}
+
+.thor h2{
+    text-align: center;
+}
+
+
+.thor img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.thor:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #ED1D24;
+}
+
+.Daredevil{
+    width: 300px;
+    background-color: #111;
+    color:white;
+    border: 2px solid #ED1D24;
+    border-radius: 12px;
+    padding: 20px;
+    margin-left: 130px;
+    margin-top: 75px;
+    transition: 0.5s;
+
+}
+
+.Daredevil h2{
+    text-align: center;
+}
+
+.Daredevil img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.Daredevil:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #ED1D24;
+}
+
+.punisher{
+    width: 300px;
+    background-color: #111;
+    color: white;
+    border:2px solid #ED1D24;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: left;
+    margin-top: -410px;
+    margin-left:620px;
+    transition: 0.5s;
+}
+
+.punisher h2{
+    text-align: center;
+}
+
+.punisher img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.punisher:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #ED1D24;
+}
+
+.pantera{
+    width: 320px;
+    background-color: #111;
+    color:white;
+    border: 2px solid #ED1D24;
+    border-radius: 12px;
+    padding: 20px;
+     margin-left: 1100px;
+    margin-top:-410px;
+    transition: 0.5s;
+}
+
+.pantera h2{
+    text-align: center;
+}
+
+.pantera img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.pantera:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #ED1D24;
+}
+
+.ant-man{
+    width: 300px;
+    background-color: #111;
+    color: white;
+    border: 2px solid #ED1D24;
+    border-radius: 12px;
+    padding: 20px;
+    margin-left: 130px;
+    margin-top: 75px;
+    transition: 0.5s;
+}
+
+.ant-man h2{
+    text-align: center;
+}
+
+.ant-man img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.ant-man:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #ED1D24;
+}
+
+.reed{
+    width: 315px;
+    background-color: #111;
+    color:white;
+    border: 2px solid #ED1D24;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: left;
+    margin-top: -410px;
+    margin-left:620px;
+    transition: 0.5s;
+}
+
+.reed h2{
+    text-align: center;
+}
+
+.reed img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.reed:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #ED1D24;
+}
+
+.strange{
+    width: 300px;
+    background-color: #111;
+    color: white;
+    border:2px solid #ED1D24;
+    border-radius: 12px;
+    padding: 20px;
+    margin-left: 1100px;
+    margin-top:-410px;
+    transition: 0.5s;
+}
+
+.strange h2{
+    text-align: center;
+}
+
+.strange img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.strange:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #ED1D24;
+}
+
+.vision{
+    width: 300px;
+    background-color: #111;
+    color:white;
+    border: 2px solid #ED1D24;
+    border-radius: 12px;
+    padding: 20px;
+    margin-left: 130px;
+    margin-top: 75px;
+    transition: 0.5s;
+}
+
+.vision h2{
+    text-align: center;
+}
+
+.vision img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.vision:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #ED1D24;
+}
+
+.wanda{
+     width: 300px;
+    background-color: #111;
+    color:white;
+    border: 2px solid #ED1D24;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: left;
+    margin-top: -410px;
+    margin-left:620px;
+    transition: 0.5s;
+}
+
+.wanda h2{
+    text-align: center;
+}
+
+.wanda img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.wanda:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #ED1D24;
+}
+
+.venom{
+    width: 300px;
+    background-color: #111;
+    color:white;
+    border: 2px solid #ED1D24;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: left;
+    margin-left: 1100px;
+    margin-top:-410px;
+    transition: 0.5s;
+}
+
+.venom h2{
+    text-align: center;
+}
+
+.venom img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.venom:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #ED1D24;
+}
+
+.ciclope{
+    width: 300px;
+    background-color: #111;
+    color:white;
+    border: 2px solid #ED1D24;
+    border-radius: 12px;
+    padding: 20px;
+    margin-left: 130px;
+    transition: 0.5s;
+    margin-top: 75px;
+}
+
+.ciclope h2{
+    text-align: center;
+}
+
+.ciclope img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.ciclope:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #ED1D24;
+}
+
+.cap-marvel{
+    width: 300px;
+    background-color: #111;
+    color:white;
+    border: 2px solid #ED1D24;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: left;
+    margin-top: -420px;
+    margin-left:620px;
+    transition: 0.5s;
+}
+
+.cap-marvel h2{
+    text-align: center;
+}
+
+.cap-marvel img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.cap-marvel:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #ED1D24;
+}
+
+.fantasma{
+width: 300px;
+background-color: #111;
+color:white;
+border: 2px solid #ED1D24;
+border-radius: 12px;
+padding: 20px;
+text-align: left;
+margin-left: 1100px;
+ margin-top:-410px;
+ transition: 0.5s;
+}
+
+.fantasma h2{
+    text-align: center;
+}
+
+.fantasma img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.fantasma:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #ED1D24;
+}
+
+.silver-surfer{
+    width: 300px;
+    background-color: #111;
+    color:white;
+    border: 2px solid #ED1D24;
+    border-radius: 12px;
+    padding: 20px;
+    margin-left: 130px;
+    margin-top: 75px;
+    transition: 0.5s;
+}
+
+.silver-surfer h2{
+    text-align: center;
+}
+
+.silver-surfer img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.silver-surfer:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #ED1D24;
+}
+
+.beyonder{
+    width: 300px;
+    background-color: #111;
+    color: white;
+    border: 2px solid #ED1D24;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: left;
+    margin-top: -440px;
+    margin-left:620px;
+    transition: 0.5s;
+}
+
+.beyonder h2{
+    text-align: center;
+}
+
+.beyonder img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.beyonder:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #ED1D24;
+}
+
+.logan{
+    width: 300px;
+background-color: #111;
+color:white;
+border: 2px solid #ED1D24;
+border-radius: 12px;
+padding: 20px;
+text-align: left;
+margin-left: 1100px;
+ margin-top:-410px;
+ transition: 0.5s;
+}
+
+.logan h2{
+    text-align: center;
+}
+
+.logan img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.logan:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #ED1D24;
 }
