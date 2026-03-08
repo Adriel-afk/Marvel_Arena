@@ -8,7 +8,12 @@ h1{
     font-size: 50px;
     font-style: oblique;
     font-family: 'Times New Roman', Times, serif;
+    text-shadow:
+    0 0 5px #ED1D24,
+    0 0 10px #ED1D24,
+    0 0 20px #ED1D24;
 }
+
 
 
 
@@ -94,4 +99,95 @@ button{
     transform: scale(1.05);
     box-shadow: 0 0 20px #ED1D24;
 
+}
+
+/*Seccion para las cartas de los heroes*/
+
+.spider-man{
+    width: 300px;
+    background-color: #111;
+    color: white;
+    border: 2px solid #ED1D24;
+    border-radius: 12px;
+    text-align: left;
+    padding: 20px;
+    margin-top: 100px;
+    margin-left: 130px;
+    transition: 0.5s;
+}
+
+.spider-man h2{
+    text-align: center;
+}
+
+.spider-man img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.spider-man:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #ED1D24;
+}
+
+.ironman{
+    width: 300px;
+    background-color: #111;
+    color: white;
+    border: 2px solid #ED1D24;
+    border-radius: 12px;
+    text-align: left;
+    padding: 20px;
+    margin-left: 625px;
+    margin-top: -390px;;
+}
+
+.ironman h2{
+    text-align: center;
+}
+.ironman img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.hulk{
+    width: 300px;
+    background-color: #111;
+    color: white;
+    border: 2px solid #ED1D24;
+    border-radius: 12px;
+    text-align: left;
+    padding: 20px;
+    margin-top:-390px;
+    margin-left: 1100px;
+}
+
+.hulk h2{
+    text-align: center;
+}
+.hulk img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.deadpool{
+    width: 300px;
+    background-color: #111;
+    color: white;
+    border: 2px solid #ED1D24;
+    border-radius: 12px;
+    text-align: left;
+    padding: 20px;
+    margin-top: 75px;
+    margin-left: 130px;
+
+}
+
+.deadpool h2{
+    text-align: center;
+}
+
+.deadpool img{
+    width: 100%;
+    border-radius: 10px;
 }
