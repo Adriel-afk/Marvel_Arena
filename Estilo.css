@@ -1,0 +1,97 @@
+body{
+    background-color: black;
+}
+
+h1{
+    color:red;
+    text-align: center;
+    font-size: 50px;
+    font-style: oblique;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+.card{
+    width: 300px;
+    background-color: #111;
+    color: white;
+    border: 2px solid #ED1D24;
+    border-radius: 12px;
+    text-align: center;
+    padding: 20px;
+    margin-left: 620px;
+    margin-top:75px;
+    transition: 0.5s;
+}
+
+.card img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #ED1D24;
+}
+
+
+button{
+    background-color: #ED1D24;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+        transition: 0.5s;
+
+}
+
+.card2{
+    width: 300px;
+    background-color: #111;
+    color: white;
+    border: 2px solid #ED1D24;
+    border-radius: 12px;
+    text-align: center;
+    padding: 20px;
+    margin-top:-435px;
+    margin-left: 150px;
+        transition: 0.5s;
+
+    
+}
+
+.card2 img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card2:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #ED1D24;
+}
+
+.card3{
+    width: 300px;
+    background-color: #111;
+    color:white;
+    border: 2px solid #ED1D24;
+    border-radius: 12px;
+    text-align: center;
+    padding: 20px;
+    margin-left: 1100px;
+    margin-top: -435px;
+    transition: 0.5s;
+}
+
+.card3 img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card3:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #ED1D24;
+
+}
