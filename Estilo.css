@@ -28,7 +28,6 @@ h1{
     0 0 5px #ED1D24,
     0 0 10px,
     0 0 20px;
-
     cursor: pointer;
     
 }
@@ -685,3 +684,81 @@ margin-left: 1100px;
     transform: scale(1.05);
     box-shadow: 0 0 20px #ED1D24;
 }
+
+/*Seccion para la arena */
+
+h1{
+   color:red;
+    text-align: center;
+    font-size: 50px;
+    font-style: oblique;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow:
+    0 0 5px #ED1D24,
+    0 0 10px #ED1D24,
+    0 0 20px #ED1D24;
+}
+
+.personaje1{
+    width: 300px;
+    background-color: #111;
+    color:white;
+    padding: 20px;
+    border: 2px solid #ED1D24;
+    border-radius: 12px;
+    text-align: center;
+    transition: 0.5s;
+    margin-left: 250px;
+    margin-top: 100px;
+}
+
+.personaje1 img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.personaje1:hover{
+transform: scale(1.05);
+box-shadow: 0 0 20px #ED1D24;
+}
+
+.personaje2{
+    width: 300px;
+    background-color: #111;
+    color:white;
+    padding: 20px;
+    border: 2px solid #ED1D24;
+    border-radius: 12px;
+    text-align: center;
+    transition: 0.5s;
+    margin-left: 1000px;
+    margin-top: -320px;
+}
+
+.personaje2 img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.personaje2:hover{
+transform: scale(1.05);
+box-shadow: 0 0 20px #ED1D24;
+}
+
+.atras-boton-arena{
+    width: 100px;
+    background-color: #111;
+    color:#ED1D24;
+    padding: 20px;
+    border: 2px solid #ED1D24;
+    border-radius: 12px;
+    text-shadow: 
+    0 0 5px #ED1D24,
+    0 0 10px,
+    0 0 20px;
+    box-shadow: 0 0 20px #ED1D24;
+    cursor: pointer;
+    
+    
+}
+
