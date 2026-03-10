@@ -1373,6 +1373,22 @@ box-shadow: 0 0 20px #ED1D24;
 
 /*SECCION DE ELECCION 2 */
 
+h2{
+    color:#ED1D24;
+    text-align: center;
+    box-shadow: 0 0 20px #ED1D24;
+    
+}
+
+#jugador1{
+    color:white;
+    text-align: center;
+    font-size: 30px;
+    border-color: #ED1D24;
+
+}
+
+
 .atras-boton-eleccion2 button{
     width: 250px;
     background-color: #111;
