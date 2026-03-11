@@ -1972,6 +1972,7 @@ h2{
     box-shadow: 0 0 20px #ED1D24;
 }
 
+
 /**/
 .div_Principal{
     display: flex;
@@ -2015,5 +2016,10 @@ h2{
     box-shadow: 0 0 5px #ED1D24,
     0 0 15px #ED1D24,
     0 0 20px #ED1D24;
+}
+
+.MostrarInfo button{
+    display: block;
+    margin: auto;
 }
 /**/

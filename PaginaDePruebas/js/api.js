@@ -1,3 +1,4 @@
+//api.js
 const url = "https://akabab.github.io/superhero-api/api/all.json";
 
 let marvelPublishers = [
@@ -29,7 +30,6 @@ let marvelNombre = [
     "Scarlet Witch",
     "Venom",
     "Cyclops",
-    "Captain Marvel",
     "Ghost Rider",
     "Silver Surfer",
     "Beyonder",
@@ -45,10 +45,18 @@ fetch(url).then(response => {
     return response.json();
 })
 .then(data => {
-        console.log("Conexion a API buena");
+    console.log("Conexion a API buena");
 
-        datahero = data;
+    datahero = data;
+
+    if(document.getElementById("div_Principal")){
         GetPersonajes(datahero);
+    }
+
+    if(document.getElementById("div_Elegir")){
+        GetPersonajesElegir(datahero);
+    }
+
 })
 .catch(error => {
         console.error("Hubo un problema:", error);
@@ -76,4 +84,15 @@ function GetPersonajes(array){
     );
 
     MostrarHeroes(filtrar_por_personajes);
+}
+
+function GetPersonajesElegir(array){
+
+    // Filtrar solo por personajer
+
+    const filtrar_por_personajes = array.filter(hero =>
+        marvelNombre.includes(hero.name)
+    );
+
+    MostrarHeroesAElegir(filtrar_por_personajes);
 }
