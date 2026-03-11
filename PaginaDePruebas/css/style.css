@@ -1971,3 +1971,49 @@ h2{
     transform: scale(1.05);
     box-shadow: 0 0 20px #ED1D24;
 }
+
+/**/
+.div_Principal{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+
+    margin: 20px;
+    padding: 40px;
+}
+.MostrarInfo{
+
+    
+
+    width: 300px;
+    background-color: #111;
+    color: white;
+    border: 2px solid #ED1D24;
+    border-radius: 12px;
+    text-align: left;
+    padding: 20px;
+    transition: 0.5s;
+}
+.MostrarInfo h2{
+    text-align: center;
+}
+.MostrarInfo img{
+    border-radius: 10px;
+
+    background-size: cover; 
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin: 0px;
+
+    width: 300px;
+    height: 200px;
+}
+.MostrarInfo:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 5px #ED1D24,
+    0 0 15px #ED1D24,
+    0 0 20px #ED1D24;
+}
+/**/
