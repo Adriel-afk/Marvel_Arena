@@ -2022,4 +2022,17 @@ h2{
     display: block;
     margin: auto;
 }
+
+.imgPernajeElegido{
+    border-radius: 10px;
+
+    background-size: cover; 
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin: 0px;
+
+    width: 300px;
+    height: 200px;
+}
 /**/
