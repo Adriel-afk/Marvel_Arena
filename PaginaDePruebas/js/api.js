@@ -45,7 +45,6 @@ fetch(url).then(response => {
     return response.json();
 })
 .then(data => {
-    console.log("Conexion a API buena");
 
     datahero = data;
 
@@ -55,6 +54,10 @@ fetch(url).then(response => {
 
     if(document.getElementById("div_Elegir")){
         GetPersonajesElegir(datahero);
+    }
+
+    if(document.getElementById("imgPlayer1")){
+        MostrarHeroesArena();
     }
 
 })
@@ -86,6 +89,7 @@ function GetPersonajes(array){
     MostrarHeroes(filtrar_por_personajes);
 }
 
+//Para que se vean los personajer en eleccion.html
 function GetPersonajesElegir(array){
 
     // Filtrar solo por personajer

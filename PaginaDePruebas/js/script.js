@@ -27,8 +27,7 @@ function MostrarHeroes(array){
     });
 
 }
-
-//ARENA FAKE
+//Para que se vean los personajer en eleccion.html
 
 const ContenedorElegirlId = document.getElementById("div_Elegir");
 
@@ -48,3 +47,43 @@ function MostrarHeroesAElegir(array){
         ContenedorElegirlId.innerHTML += CrearContenedorElegirPersonaje(hero);
     });
 }
+
+//Colocar imagenes de personaje elejido por el jugador
+
+document.addEventListener("click", function(e){
+
+    if(e.target.tagName === "BUTTON" && e.target.textContent === "ELEGIR"){
+
+        const idHero = e.target.id;
+        const player = localStorage.getItem("player");
+
+        if(player === "1"){
+            localStorage.setItem("player1Hero", idHero);
+        }
+        else if(player === "2"){
+            localStorage.setItem("player2Hero", idHero);
+        }
+
+        // volver a la arena
+        window.location.href = "arena.html";
+    }
+
+});
+
+function MostrarHeroesArena(){
+
+    const id1 = localStorage.getItem("player1Hero");
+    const id2 = localStorage.getItem("player2Hero");
+
+    if(id1){
+        const hero1 = datahero.find(h => h.id == id1);
+        document.getElementById("imgPlayer1").src = hero1.images.lg;
+    }
+
+    if(id2){
+        const hero2 = datahero.find(h => h.id == id2);
+        document.getElementById("imgPlayer2").src = hero2.images.lg;
+    }
+
+}
+
