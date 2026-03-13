@@ -701,50 +701,31 @@ h1{
     0 0 20px #ED1D24;
 }
 
-.personaje1{
+.personaje1, .personaje2 {
     width: 300px;
     background-color: #111;
-    color:white;
+    color: white;
     padding: 20px;
     border: 2px solid #ED1D24;
     border-radius: 12px;
     text-align: center;
     transition: 0.5s;
-    margin-left: 250px;
-    margin-top: 100px;
+    
+    /* IMPORTANTE: Borra cualquier margin-left, margin-top o float que tuvieras */
+    margin: 0; 
 }
 
-.personaje1 img{
+/* 3. Las imágenes dentro de los personajes */
+.imgPernajeElegido {
     width: 100%;
     border-radius: 10px;
+    margin-bottom: 15px;
 }
 
-.personaje1:hover{
-transform: scale(1.05);
-box-shadow: 0 0 20px #ED1D24;
-}
-
-.personaje2{
-    width: 300px;
-    background-color: #111;
-    color:white;
-    padding: 20px;
-    border: 2px solid #ED1D24;
-    border-radius: 12px;
-    text-align: center;
-    transition: 0.5s;
-    margin-left: 1000px;
-    margin-top: -320px;
-}
-
-.personaje2 img{
-    width: 100%;
-    border-radius: 10px;
-}
-
-.personaje2:hover{
-transform: scale(1.05);
-box-shadow: 0 0 20px #ED1D24;
+/* 4. Efecto al pasar el mouse */
+.personaje1:hover, .personaje2:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #ED1D24;
 }
 
 .atras-boton-arena button{
@@ -2023,6 +2004,14 @@ h2{
     margin: auto;
 }
 
+.ArenaDiv {
+    display: flex;            /* Los pone uno al lado del otro */
+    justify-content: center;   /* Los centra en la pantalla */
+    align-items: center;       /* Los alinea verticalmente */
+    gap: 200px;                /* SEPARACIÓN EXACTA DE 50PX */
+    padding: 20px;
+    min-height: 80vh;         /* Para que tengan espacio arriba y abajo */
+}
 .imgPernajeElegido{
     border-radius: 10px;
 
@@ -2035,4 +2024,4 @@ h2{
     width: 300px;
     height: 200px;
 }
-/**/
+/*HOADNIODHOLD*/
